@@ -1,39 +1,37 @@
 html {
     box-sizing: border-box;
-}
 
+}
 *,*::before,*::after {
     box-sizing: inherit;
 }
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
 }
-
 h1 {
     text-align: center;
 }
 
 .container {
-    height: auto;
+    height: 10px;
 }
 
-.blocks {margin-left: 22%;
-    margin-bottom: 50px;
-    display: inline-block;
+.blocks {
+    margin: 10px;
     width: auto;
-
+    display: inline-block;
 }
 
 .block {
+    word-wrap: break-word;
     margin: 0;
     padding: 20px;
     height: 35vh;
-    width: 450px;
+    width: 50%;
     float: left;
 }
+
 .block:nth-child(-n+4){
     border-right: 2px solid red;
 }
@@ -49,23 +47,16 @@ h1 {
 .block:nth-child(-n+2){
     border-top: 2px solid red;
 }
-
-
-
-
-
 li:nth-child(2n+2) {
     color: red;
 }
-
 h2 {
     font-size: 18px;
 }
-
 ul {
     list-style-type: circle;
-}
 
+}
 span {
     display: inline-block;
     width: 24px;
